@@ -3,6 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<script>
+	function move() {
+		location.href = "home.html";
+	}
+	function popup() {
+		window.open = "cts.html";
+	}
+	function login() {
+		location.href = "home.html";
+	}
+	function urs() {
+		location.href = "urs.html";
+	}
+</script>
 </head>
 <body>
 	<div style="width: 100%" align="center" >
@@ -21,11 +35,12 @@
 		로그인후 비밀번호를 반드시 변경 해주세요.<font color="red">단, 직원은 제외</font></h3>
 		</div>
 		<div style="margin-top:20px ">
-		<img src="images/btn_login.gif" alt="" />
+		<img src="images/btn_login.gif" alt="" onclick="javascript : move()" />
 		</div>
 		<div style="margin-top: 20px">
-			<a href="">아이디 찾기</a> | <a href="">비밀번호 찾기</a>
+			<a href="" onclick="javascript : popup()">아이디 찾기</a> | <a href="">비밀번호 찾기</a>
 		</div>
+		
 		
 	</div>
 </body>

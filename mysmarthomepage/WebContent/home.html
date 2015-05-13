@@ -3,19 +3,31 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<script>
+	function urs() {
+		location.href = "urs.html";
+	}
+	function logout() {
+		location.href = "login.html";
+	}
+</script>
 </head>
-<body bgcolor="#6B66FF">
+<body>
 <table style="border: 1px solid blue; width: 100%; height: 700px; border-collapse: collapse; ">
-	<tr class="row" style="border : 1px solid blue; height: 10%; ">
-		<td class="col" style="border: 1px solid blue;"colspan="2"></td>
-		<!-- <td class="col" style="border: 1px solid blue;"rowspan="2"></td> -->
-
-	</tr>
+<tr class="row" style="border : 1px solid blue; height: 10%; ">
+			<td class="col" style="border: 1px solid blue;"colspan="2" align="right">
+			<button onclick="urs()" >urs</button>
+		<button onclick="logout()" >logout</button>
+		</td>
+		</tr>
+			
+		<tr class="row" style="border : 1px solid blue; height: 80%">
+			<td class="col" style="border: 1px solid blue; ">
+					<div>
 		
-	<tr class="row" style="border : 1px solid blue; height: 80%">
-		<td class="col" style="border: 1px solid blue; width: 20%"></td>
-		<td class="col" style="border: 1px solid blue; "></td>
-	</tr>
+		</div>
+			</td>
+		</tr>
 </table>
 </body>
 </html>
