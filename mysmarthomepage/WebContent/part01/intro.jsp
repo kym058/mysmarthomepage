@@ -25,8 +25,7 @@
 			</li>
 			<li>Tomcat 7.0
 				<a href="http://tomcat.apache.org/download-70.cgi">
-					다운로드
-				</a>
+					다운로드</a>
 			</li>
 			<li>이클립스
 				<a href="https://eclipse.org/">다운로드</a>
@@ -52,6 +51,14 @@
 			  <a href="part01/add_demo.do">예제  : 서블릿 방식</a><br />
 			  <a href="part01/add_demo2.do">예제  : 모델1 방식(JSP버젼)</a><br />
 			  <a href="part01/add_demo3.do">예제  : 모델2 방식(향상된 서블릿)</a><br />
+			</li>
+		</ul>
+	</div>
+	<div>
+		<h3>GET 방식과  POST 방식의 차이점</h3>
+		<ul>
+			<li>
+			 <a href="part01/go_method.do">메소드JSP로 이동</a>
 			</li>
 		</ul>
 	</div>
