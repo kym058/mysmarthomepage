@@ -13,6 +13,12 @@
 			<a href="part03/login_form.do">바로가기</a>
 		</div>
 	</div>
+	<div>
+		<h3>회원가입 폼 샘플</h3>
+		<div>
+			<a href="part03/join_form.do">바로가기</a>
+		</div>
+	</div>
 	
 </body>
 </html>
