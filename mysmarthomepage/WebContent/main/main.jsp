@@ -18,7 +18,7 @@
 <table style="border: 1px solid blue; width: 100%; height: 700px; border-collapse: collapse; ">
 <tr class="row" style="border : 1px solid blue; height: 10%; ">
 			<td class="col" style="border: 1px solid blue;"colspan="2" align="right">
-			<button onclick="urs()" >urs</button>
+			<button onclick="ures()" >ures</button>
 		<button onclick="logout()" >logout</button>
 		</td>
 		</tr>
